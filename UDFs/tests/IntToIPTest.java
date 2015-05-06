@@ -1,4 +1,4 @@
-package org.cafemom.udf;
+package org.vangie.udf;
 import org.junit.Assert.*;
 import org.junit.Test;
 import org.apache.hadoop.io.Text;
