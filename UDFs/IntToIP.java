@@ -1,7 +1,7 @@
 /*
 > export CLASSPATH=/home/vshue/svn/ds/aws/hiveudf/hadoop-core-0.20.2.jar:/home/vshue/svn/ds/aws/hiveudf/hive-exec-0.8.0.jar
 > javac IntToIP.java
-
+> jar cf IntToIP.jar IntToIP.class
 */
 
 package org.vangie.udf;
@@ -17,7 +17,7 @@ import org.apache.hadoop.io.Text;
   extended="> SELECT inttoipudf(643366670) from foo limit 1;\n"+
           "'38.88.255.14'"
   )
-class IntToIPUDF extends UDF {
+class IntToIP extends UDF {
   
   public Text evaluate(Text input) {
     if(input == null) return null;
