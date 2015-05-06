@@ -1,6 +1,10 @@
+/*
+> export CLASSPATH=/home/vshue/svn/ds/aws/hiveudf/hadoop-core-0.20.2.jar:/home/vshue/svn/ds/aws/hiveudf/hive-exec-0.8.0.jar
+> javac IntToIP.java
 
+*/
 
-package org.cafemom.udf;
+package org.vangie.udf;
 
 import org.apache.hadoop.hive.ql.exec.Description;
 import org.apache.hadoop.hive.ql.exec.UDF;
