@@ -1,2 +1,2 @@
-# Hive
-Random things related to [hadoop] Hive.
+# aws things
+Miscellaneous scripts related to using Amazon AWS.
